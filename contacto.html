@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="imagenes/fn colores.jpg" alt="Papelería" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Inicio
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <h1 style="text-align: center;padding-top: 50px;">Contacto</h1>
+    <div class="row" style="text-align: center;">
+      <div class="col" style="text-align: center;">
+        <h3>WhatsApp</h3>
+        <img src="imagenes/whatsapp.7f3687b9-847d-4f86-bb5c-c73259e2b38e" alt="WhatsApp" style="padding: 50px;">
+      </div>
+      <div class="col" style="text-align: center;">
+        <h3>Correo Electronico</h3>
+        <img src="imagenes/correo electronico.jpeg" alt="correo electronico" style="padding: 50px;">
+      </div>
+      <div class="col" style="text-align: center;">
+        <h3>Direccion</h3>
+        <img src="imagenes/direccion.jpg" alt="direccion" style="padding: 50px;">
+      </div>
+    </div>
+    <h3 style="text-align: center;padding-top: 50px;">Nuestra Ubicación</h3>
+    <div style="text-align: center;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d2029.119212790565!2d-78.51427311984165!3d-0.22777638271966463!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2sec!4v1734048751790!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h3 style="text-align: center;padding-top: 50px;">Escribenos para atender tus requerimientos</h3>
+    <form class="row g-3"style="padding:100px">
+      <div class="col-md-6">
+        <label for="input" class="form-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="nombre">
+      </div>
+      <div class="col-md-6">
+        <label for="input" class="form-label">Apellido</label>
+        <input type="text" class="form-control" placeholder="Apellido">
+      </div>
+      <div class="col-12">
+        <label for="input" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+      </div>
+      <div class="col-12">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Provincia</label>
+        <select id="inputState" class="form-select">
+          <option selected>Seleccionar...</option>
+          <option>Pichincha</option>
+          <option>Guayas</option>
+          <option>Tungurahua</option>
+          <option>Azuay</option>
+          <option>Cotopaxi</option>
+          <option>Manabí</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity"placeholder="Ciudad">
+      </div>
+      <div class="col-md-2">
+        <label for="input" class="form-label">Contacto</label>
+        <input type="text" class="form-control" id="inputContacto" placeholder="099 999 9999">
+      </div>
+      <div class="input-group">
+        <span class="input-group-text">Mensaje</span>
+        <textarea class="form-control" aria-label="With textarea" placeholder="Escribe tu mensaje..."></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+</body>
+</html>

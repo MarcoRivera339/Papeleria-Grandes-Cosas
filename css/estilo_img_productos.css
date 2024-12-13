@@ -1,0 +1,15 @@
+img:not(.excluir){
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.container-fluid:not(.excluirp){
+    padding: 50px;
+
+}
+.row + .row {
+    margin-top: 20px;
+  }
+.col{
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.carousel-item{
+    object-fit: contain;
+}
+.col{
+    background-color: black;
+    border: 5px solid   whitesmoke;
+    text-align: justify;
+}
