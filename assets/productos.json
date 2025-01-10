@@ -1,3 +1,40 @@
 {
-  "productos": []
+  "productos": [
+    {
+      "id": "15",
+      "producto": "portaminas_rotring_az",
+      "precio": 5.8,
+      "cantidad": 2
+    },
+    {
+      "id": "14",
+      "producto": "acuarelas_acrilicas",
+      "precio": 2.5,
+      "cantidad": 1
+    },
+    {
+      "id": "16",
+      "producto": "portaminas_rotring_az",
+      "precio": 5.8,
+      "cantidad": 1
+    },
+    {
+      "id": "17",
+      "producto": "tijera",
+      "precio": 1.5,
+      "cantidad": 1
+    },
+    {
+      "id": "11",
+      "producto": "esferos_punta_fina",
+      "precio": 0.5,
+      "cantidad": 1
+    },
+    {
+      "id": "9",
+      "producto": "portaminas",
+      "precio": 1.25,
+      "cantidad": 1
+    }
+  ]
 }
