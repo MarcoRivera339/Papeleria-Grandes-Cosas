@@ -58,24 +58,24 @@
     <form class="row g-3"style="padding:100px">
       <div class="col-md-6">
         <label for="input" class="form-label">Nombre</label>
-        <input type="text" class="form-control" placeholder="nombre">
+        <input type="text" class="form-control" placeholder="nombre" required minlength="3" maxlength="200">
       </div>
       <div class="col-md-6">
         <label for="input" class="form-label">Apellido</label>
-        <input type="text" class="form-control" placeholder="Apellido">
+        <input type="text" class="form-control" placeholder="Apellido" required minlength="3" maxlength="200">
       </div>
       <div class="col-12">
         <label for="input" class="form-label">Dirección</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección" required minlength="3" maxlength="200">
       </div>
       <div class="col-12">
         <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" title="Debe ser un correo electrónico válido">
       </div>
       <div class="col-md-4">
         <label for="inputState" class="form-label">Provincia</label>
-        <select id="inputState" class="form-select">
-          <option selected>Seleccionar...</option>
+        <select id="inputState" class="form-select" required>
+          <option value="" selected disabled>Seleccionar...</option>
           <option>Pichincha</option>
           <option>Guayas</option>
           <option>Tungurahua</option>
@@ -86,19 +86,20 @@
       </div>
       <div class="col-md-6">
         <label for="inputCity" class="form-label">Ciudad</label>
-        <input type="text" class="form-control" id="inputCity"placeholder="Ciudad">
+        <input type="text" class="form-control" id="inputCity"placeholder="Ciudad" required>
       </div>
       <div class="col-md-2">
         <label for="input" class="form-label">Contacto</label>
-        <input type="text" class="form-control" id="inputContacto" placeholder="099 999 9999">
+        <input type="text" class="form-control" id="inputContacto" placeholder="099 999 9999" required pattern="^\d{9,10}$" title="Debe contener entre 9 y 10 dígitos">
       </div>
       <div class="input-group">
         <span class="input-group-text">Mensaje</span>
         <textarea class="form-control" aria-label="With textarea" placeholder="Escribe tu mensaje..."></textarea>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" title="Haz clic aquí para enviar el formulario" >Enviar</button>
       </div>
     </form>
+    <script src="js/contacto.js" ></script>
 </body>
 </html>
