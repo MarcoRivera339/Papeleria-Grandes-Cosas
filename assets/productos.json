@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": "9",
+      "producto": "portaminas",
+      "precio": 1.25,
+      "cantidad": 1
+    },
+    {
+      "id": "10",
+      "producto": "libros",
+      "precio": 10,
+      "cantidad": 1
+    }
+  ]
+}

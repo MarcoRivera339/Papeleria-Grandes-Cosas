@@ -1,8 +1,40 @@
-.carousel-item{
-    object-fit: contain;
-}
 .col{
-    background-color: black;
-    border: 5px solid   whitesmoke;
+    background-color: rgb(233, 17, 17);
+    border: 5px solid   rgb(8, 7, 7);
     text-align: justify;
 }
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 1;
+    pointer-events: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+  }
+  
+  .text-stroke {
+    font-size: 8rem;
+    font-weight: bold;
+    color: rgb(229, 236, 16); /* Texto interior transparente */
+    -webkit-text-stroke: 5px rgb(9, 5, 5); /* Grosor y color del borde */
+    text-align: center;
+  }
+
+  #background-img1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.2; /* Reduce la opacidad para dar efecto de marca de agua */
+    pointer-events: none; /* Evita que el video interfiera con la interacción del usuario */
+  }
